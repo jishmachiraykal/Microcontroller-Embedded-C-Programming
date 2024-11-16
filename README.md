@@ -1,5 +1,5 @@
-### Welcome to Microcontroller Embedded C Programming
-## This repo contains some of the critical microcontroller-related 'C' concepts and code such as
+## Welcome to Microcontroller Embedded C Programming
+### This repo contains some of the critical microcontroller-related 'C' concepts and code such as
 
   * Importance of bitwise operators
 
