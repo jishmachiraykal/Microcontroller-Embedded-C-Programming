@@ -16,7 +16,3 @@ In C, 0 is false and anything non-zero is true
 
 * 1 && 10 = true because both 1 and 10 are non-zero values/
 0 && 1 = false because 0 is false and FT is false
-
-*  
-
-* 

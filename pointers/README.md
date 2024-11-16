@@ -21,3 +21,14 @@ int* address = (int*) 0xFFF1233 == read operation of address variable yields 4 b
 long long int* address = (long long*) 0xFFF1233 == read operation of address variable yields 8 byte of data
 
 * char* data = char *data both are same and identical
+
+* scanf is used to read a number. Hence if there are any char is entered then it returns 0 because it was expecting a number
+
+* In case of if/if-else condition, we can evaluate one expression but in if-elif ladder more than one expression can be evaluated
+
+* Conditional operator is collection of 3 operands.
+
+    Syntax: exp1 ? exp2 : exp 3
+    if exp1 is true exp2 will be assigned to variable else exp3 will be assigned
+
+* Conditional operator is sometimes used to replace if else statement
