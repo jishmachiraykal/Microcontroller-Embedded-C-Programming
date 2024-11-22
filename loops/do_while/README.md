@@ -12,5 +12,3 @@ statement1
 * If the result of the exp is false then loop ends
 
 * Usage of do while loop in embedded programming is to write multiline 'C' macros in a header file
-
-* 
