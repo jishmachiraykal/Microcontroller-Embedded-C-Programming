@@ -28,3 +28,9 @@ If the constant expression is 0 then code block will not be executed and if it i
 * To undefine the macros which are defined, use #undefine if both macros are in different files
 
 * In order to display the warning instead of compilation error use #warning
+
+* #ifdef checks whether the identifier is defined in the program or not. Ex: #ifdef AGE, if AGE is defined in the program, then the code block inside ifdef will be executed
+Syntax:
+```
+#ifdef <identifier> // not constant expression
+```
