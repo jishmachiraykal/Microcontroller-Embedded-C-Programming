@@ -6,8 +6,13 @@ int main()
     int32_t n1,result;
     printf("Enter a number:");
     scanf("%d", &n1);
-    // 0x8F is hexadecimal value of 145.
-    // 4th,5th and 6th bit is set to 0 then 64,32 and 16 will be 0 rest 1 = 144
+    /* 0x8F is hexadecimal value of 145
+    mask value to clear 4th, 5th and 6th bits: 1 0 0 0 1 1 1 1
+    0x8F
+    Therefore n1 & 0x8F
+    n1 & 1
+    0 0 0 0 0 0 0 1
+    4th,5th and 6th bit is set to 0 then 64,32 and 16 will be 0 rest 1 = 144 */
     result = n1 & 0x8F;
     // to print result in interger format
     printf("[input] [output] %d %d\n", n1 , result);

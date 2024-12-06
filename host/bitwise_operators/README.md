@@ -50,3 +50,11 @@ Masking the other bits which is of no interest(making it 0) i.e., making all bit
 * & is used to test and clear not to set bits
 
 * XOR is used toggle the number. Ex: toggle LED
+
+* In bitwise operator, we do the operation bit by bit.
+In logical operation, the value will be 0 or 1 i.e., true or false
+
+* For even number lsb will be 0 always and for odd number lsb will be 1 always.
+Because lsb will be 1(8 4 2 1), so if it is odd then lsb will be 1 or if even then 0
+
+* Set a bit means making the bit 1 and clear a bit mean making the bit 0
