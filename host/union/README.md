@@ -8,3 +8,4 @@
     1. Bit extraction
     2. Storing mutually exclusive data thus saving memory
 
+* The value will be overwritten in union, hence they have same memory location
