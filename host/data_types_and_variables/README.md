@@ -63,7 +63,8 @@ Storage size: 8 bytes
 Precision up to 15 decimal places
 Value range: 2.3x10^308 to 1.x10^308
 
-* float n1 = 23.1000010001010;
+```
+float n1 = 23.1000010001010;
 printf("Float =%0.9f\n", n1); // here %0.9f is width specifier telling to print upto 9 decimal places after point, but precision will be less here.  Use double if you want more precision
-
-* 
+```
+ 

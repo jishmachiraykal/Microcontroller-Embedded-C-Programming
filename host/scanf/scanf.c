@@ -17,6 +17,6 @@ int main()
 
     return 0;
 
-   getchar() // this will hang until the user enters any key on the keyboard
+   getchar(); // this will hang until the user enters any key on the keyboard
 // it is used when you want to hang the program for sometime without exiting it after printf
 }
