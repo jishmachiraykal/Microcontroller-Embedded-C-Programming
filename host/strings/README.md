@@ -40,3 +40,32 @@ student_info students[10];// structure array to store record of 10 students
 
 * Deleting means zeroing all the member element of a node
 
+* Each char typically takes 1 byte of memory. Therefore, the total memory used by char name[] = "Hello"; would be:5+1('\0')= 6 bytes
+
+* char name[]=['h', 'e', 'e'};
+This is not a string definition but an array definition. Here "hee" will not terminated by '\0' because this is not a string
+
+* Copying of string from flash to stack of RAM will not be done by startup code, it is done during the run time of the function
+
+* char *name2[]= "Sera";
+This variable is living in RAM pointing to FLASH. Therefore we cannot change the value of name[0]='l';
+Because it is pointing to flash and we can't change value stored in flash
+
+* Be careful while using %s with an array of characters. The array must be terminated with a null character, otherwise it will result in segmentation fault
+
+```
+scanf("%s", name);
+```
+Here scanf will take care of inputting null character after string when %s is specified
+
+```
+char name;
+printf("Enter namee");
+scanf("%s",&name);
+printf("%s", name);
+```
+
+This is wrong because the %s format specifier expects a pointer to a char array (i.e., a char*), not a single char variable. This causes undefined behavior.
+
+Right way to do is char name[100];
+
