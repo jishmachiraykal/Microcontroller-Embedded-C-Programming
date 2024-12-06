@@ -34,3 +34,36 @@ data = + 25 then the answer is direct 0 0 0 1 1 0 0 1
 * Variable names are not stored inside the computer memory and it will be replaced by the memory location addresses during data manipulation. It is used as a label
 
 * Variable naming rules: variable names should not more than 30 because some compilers throws error. It shoudn't start with a digit and should not be from reserved keywords list
+
+* Single precision -32 bits representation:
+23 bits for significand
+8 bits for exponent
+
+1 bit for sign
+
+* Double precision -64 bits representation:
+52 bits for significand
+11 bits for exponent
+
+1 bit for sign
+
+* %lf format specifier for double type variables
+* %f format specifier for float type variables
+* %e and %le to read and write numbers in scientific notation
+
+* All constant with a decimal point are considered as double by default
+
+* Range of float
+Storage size: 4 bytes
+Precision up to 6 decimal places
+Value range: 1.2x10^38 to 3.4x10^38
+
+* Range of double
+Storage size: 8 bytes
+Precision up to 15 decimal places
+Value range: 2.3x10^308 to 1.x10^308
+
+* float n1 = 23.1000010001010;
+printf("Float =%0.9f\n", n1); // here %0.9f is width specifier telling to print upto 9 decimal places after point, but precision will be less here.  Use double if you want more precision
+
+* 
