@@ -11,5 +11,5 @@ int main()
    int *paddress2= (int*)&g_data;
 
    printf("Value at address %p is %x \n", paddress2,*paddress2);
-   // this is when you want to read 1 bytes data from pointer
+   // this is when you want to read 4 bytes data from pointer
 }
