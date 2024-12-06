@@ -67,4 +67,5 @@ Value range: 2.3x10^308 to 1.x10^308
 float n1 = 23.1000010001010;
 printf("Float =%0.9f\n", n1); // here %0.9f is width specifier telling to print upto 9 decimal places after point, but precision will be less here.  Use double if you want more precision
 ```
- 
+
+* short int is nothing but short which is of 2 bytes(16 bits) 

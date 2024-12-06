@@ -23,3 +23,5 @@ int main () -- function prototype
 * printf is a function to print some tests and do various things
 
 * Every executable statement should end with semicolon
+
+* In C, every executable statement should end with a semicolon(;)

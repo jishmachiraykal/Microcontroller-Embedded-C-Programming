@@ -34,3 +34,16 @@ Syntax:
 ```
 #ifdef <identifier> // not constant expression
 ```
+
+* Pre-processor directives are used to affect compile time settings  and are also used to create macros as a textual replacement for numbers and other things
+
+* Pre-processor directives are resolved or taken cared during the pre-processing stage of the compilation
+
+* #define PI 3.145f
+If there is no f after the value then compiler will treat it as double
+
+* comments are generally used to given description of the code, so generally using comments to exclude the code is not a good idea instead use conditional compilation directives
+
+* #if 0/1 --> it should be a constant expression
+
+* #define DELAY_COUNT 3000UL, this is unsigned long int, otherwise this will be considered as int and also it is better to safeguard the values using parenthesis i.e., #define DELAY_COUNT (3000UL)
