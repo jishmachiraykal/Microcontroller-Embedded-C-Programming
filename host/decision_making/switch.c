@@ -8,7 +8,7 @@ int main()
    printf("Area calculation program\n");
    printf("Code for circle --> c\n");
    printf("Code for square --> s\n");
-   printf("Code for trapezoid --> trapezoid\n");
+   printf("Code for trapezoid --> z\n");
    printf("Code for triangle --> t\n");
    printf("Enter the code: ");
    scanf("%c",&code);  
