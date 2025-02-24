@@ -20,8 +20,6 @@ int main () -- function prototype
 
 * main function should return int as return type according to the standard
 
-* printf is a function to print some tests and do various things
-
-* Every executable statement should end with semicolon
+* printf is a function to print some texts and do various things
 
 * In C, every executable statement should end with a semicolon(;)
