@@ -1,7 +1,6 @@
 // Use of extern keyword and usage of global variable without static keyword:
 #include <stdio.h>
 
-// this variable is private to main.c
 int my_private_data;
 
 // function prototype
