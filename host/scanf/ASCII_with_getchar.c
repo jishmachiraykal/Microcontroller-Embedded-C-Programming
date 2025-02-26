@@ -19,5 +19,5 @@ int main(void)
     //just read the input buffer and do nothing
     }
 
-    getchar();
+    getchar(); //after the loop finishes and the newline character is encountered, this getchar() reads and discards the next character that remains in the input buffer (typically, any extra newline character left behind when the user presses "Enter")
 }
