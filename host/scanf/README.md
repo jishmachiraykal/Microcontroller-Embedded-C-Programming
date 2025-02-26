@@ -4,13 +4,13 @@
 
 * If you give more input than asked then scanf will only take the no. of inputs which asked not more than that
 
-* getchar() is used if we want to read a single character from ketboard in ASCII format and it takes no argument and just returns the int value which happens to be ASCII value if the keypressed.
+* getchar() is used if we want to read a single character from keyboard in ASCII format and it takes no argument and just returns the int value which happens to be ASCII value if the keypressed.
 
 * int a= getchar(); here the program hangs until we press a key followed by pressing the enter key
 
 ```
     char name;
-    printf("Enter your name");
+    printf("Enter your name: ");
     scanf("%s",&name);
     printf("Hello %s\n", name);
 ```
