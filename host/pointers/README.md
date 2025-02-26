@@ -16,9 +16,9 @@ This is like normal variable declaration datatype variable name == int students 
 * Compiler will always store 8 bytes irrespective of pointer data type. Hence pointer data type does not control the memory size. But the this decides the behavior carried out on the pointer variable
 i.e.,
 
-char* address = (char*) 0xFFF1233 == read operation of address variable yields 1 byte of data
-int* address = (int*) 0xFFF1233 == read operation of address variable yields 4 byte of data
-long long int* address = (long long*) 0xFFF1233 == read operation of address variable yields 8 byte of data
+    char* address = (char*) 0xFFF1233 == read operation of address variable yields 1 byte of data
+    int* address = (int*) 0xFFF1233 == read operation of address variable yields 4 byte of data
+    long long int* address = (long long*) 0xFFF1233 == read operation of address variable yields 8 byte of data
 
 * char* data = char *data both are same and identical
 
